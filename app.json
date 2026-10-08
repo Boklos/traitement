@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Traitement",
+    "slug": "traitement",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.ryan.traitement",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F2EC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#2E7D5B"
+        }
+      ]
+    ]
+  }
+}
